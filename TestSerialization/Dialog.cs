@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.Immutable;
 using System.Runtime.Serialization;
 
 namespace TestSerialization
@@ -41,7 +42,7 @@ namespace TestSerialization
             }
         }
 
-        private static List<Type> _GetKnownDialogTypes()
+        private static ImmutableList<Type> _GetKnownDialogTypes()
         {
             return KnownTypeUtil.GetKnownDialogTypes();
         }
