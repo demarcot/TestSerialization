@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace TestSerialization
 {
-    public static class KnowTypeUtil
+    public static class KnownTypeUtil
     {
         public static List<Type> GetKnownDialogTypes()
         {

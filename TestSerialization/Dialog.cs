@@ -43,7 +43,7 @@ namespace TestSerialization
 
         private static List<Type> _GetKnownDialogTypes()
         {
-            return KnowTypeUtil.GetKnownDialogTypes();
+            return KnownTypeUtil.GetKnownDialogTypes();
         }
     }
 }
