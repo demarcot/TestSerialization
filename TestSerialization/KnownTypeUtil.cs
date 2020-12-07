@@ -18,5 +18,10 @@ namespace TestSerialization
         {
             return KnownDialogTypes;
         }
+
+        public static void AddKnownDialogType(Type t)
+        {
+            KnownDialogTypes.Add(t);
+        }
     }
 }
