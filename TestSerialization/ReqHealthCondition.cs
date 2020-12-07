@@ -6,7 +6,7 @@ using System.Text;
 namespace TestSerialization
 {
     [DataContract]
-    class ReqHealthCondition : ICondition
+    public class ReqHealthCondition : ICondition
     {
         public override bool IsValid()
         {

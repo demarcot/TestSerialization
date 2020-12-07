@@ -4,6 +4,7 @@ namespace TestSerialization
 {
     class Program
     {
+        /*
         static void Main(string[] args)
         {
             Dialog dialog1 = new Dialog();
@@ -22,5 +23,6 @@ namespace TestSerialization
             Console.WriteLine("\nExecuting dialog actions:");
             dialog2.ExecuteActions();
         }
+        */
     }
 }

@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Collections.Immutable;
 using System.Runtime.Serialization;
 
 namespace TestSerialization
 {
     [KnownType("_GetKnownDialogTypes")]
     [DataContract]
-    class Dialog
+    public class Dialog
     {
         [DataMember]
         private string text;
@@ -42,7 +41,7 @@ namespace TestSerialization
             }
         }
 
-        private static ImmutableList<Type> _GetKnownDialogTypes()
+        private static List<Type> _GetKnownDialogTypes()
         {
             return KnownTypeUtil.GetKnownDialogTypes();
         }

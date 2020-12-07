@@ -6,7 +6,7 @@ using System.Text;
 namespace TestSerialization
 {
     [DataContract]
-    class ModifyHealthAction : IAction
+    public class ModifyHealthAction : IAction
     {
         [DataMember]
         private int healthDelta;

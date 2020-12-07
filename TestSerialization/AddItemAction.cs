@@ -4,7 +4,7 @@ using System.Runtime.Serialization;
 namespace TestSerialization
 {
     [DataContract]
-    class AddItemAction : IAction
+    public class AddItemAction : IAction
     {
         [DataMember]
         public string text { get; private set; }
